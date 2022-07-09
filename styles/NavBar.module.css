@@ -1,0 +1,42 @@
+.navContainer {
+  height: 5rem;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 0.25px solid black;
+  margin-bottom: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.pageTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 12px;
+}
+
+.addTodoBtn {
+  font-size: 2rem;
+  margin-right: 3rem;
+}
+
+.addTodoBtn:hover {
+  cursor: pointer;
+  border: .5px solid black;
+}
+
+@media (max-width: 481px) {
+  .page-title {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .page-title {
+    font-size: 2rem;
+  }
+}
