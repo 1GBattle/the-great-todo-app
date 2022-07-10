@@ -9,7 +9,7 @@ const NavBar = () => {
       <h1 className={styles.pageTitle}>
         The Great Todo App
       </h1>
-      <button className={styles.addTodoBtn + ' gradient btn'}>Add New</button>
+      <button className={styles.addTodoBtn + ' gradient btn'}>Add New Todo</button>
     </div>
   )
 }
